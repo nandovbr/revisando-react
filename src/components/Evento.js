@@ -1,3 +1,5 @@
+import Button from './evento/Button'; // passando evento via propos
+
 function Evento() {
 
   function meuEvento () {
@@ -8,7 +10,8 @@ function Evento() {
   return (
     <div>
       <h2>Clipe para ativar um evento</h2>
-      <button type="button" onClick={meuEvento}>Ativar!</button>
+      <Button event={meuEvento} text="Primeiro evento" />
+      {/* <button type="button" onClick={meuEvento}>Ativar!</button> */}
     </div>
   )
 }
