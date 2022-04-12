@@ -5,6 +5,7 @@ import Pessoa from './components/Pessoa'; // revisando propos com destructuring
 import List from './components/List'; // revisando fragments <></>
 import Evento from './components/Evento'; // revisando eventos
 import Form from './components/Form'; // aicionando formulario de submit
+import Condicional from './components/Condicional'; // renderização condicional (if)
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <List />
       <Evento />
       <Form />
+      <h1>Renderização condicional</h1>
+      <Condicional />
     </div>
   );
 }
