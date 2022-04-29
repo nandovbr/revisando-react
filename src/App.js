@@ -1,6 +1,6 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName'; // revisando propos
+import SayMyName from './components/SayMyName'; // revisando props
 import Pessoa from './components/Pessoa'; // revisando propos com destructuring
 import List from './components/List'; // revisando fragments <></>
 import Evento from './components/Evento'; // revisando eventos
