@@ -1,4 +1,4 @@
-# Gerenciador de Projetos
+# ReactJS
 
 Estudando desenvolvimento em react
 Relembrando os conceitos do React.
